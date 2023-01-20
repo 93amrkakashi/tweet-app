@@ -1,0 +1,38 @@
+.nav-bar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #242526;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  min-height: 10vh;
+  .logo {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .navs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // flex: 1;
+
+    gap: 15px;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .avatar {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 10px;
+    }
+    p {
+      color: #dff6ff;
+    }
+  }
+}

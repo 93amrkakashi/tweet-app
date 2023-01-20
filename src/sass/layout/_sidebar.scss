@@ -1,0 +1,62 @@
+.side-bar {
+  position: fixed;
+  width: 20%;
+  background-color: #06283d;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    p {
+      color: #dff6ff;
+    }
+  }
+  .navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    button {
+      font-size: large;
+      width: 80%;
+      height: 50px;
+    }
+  }
+}
+
+.toggle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #06283d;
+  top: 50%;
+  right: -20px;
+  // z-index: 99;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dff6ff;
+  cursor: pointer;
+}
+
+.hide {
+  position: relative;
+  width:0%;
+  // display: none;
+  background-color: #06283d;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  // left: -20%;
+  transition: all 0.5s;
+}

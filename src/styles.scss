@@ -1,0 +1,70 @@
+@use "./sass/layout/navbar";
+@use "./sass/layout/post";
+@use "./sass/layout/addpost";
+@use "./sass/pages/login";
+@use "./sass/pages/register";
+@use "./sass/pages/profile";
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+
+}
+body{
+  font-family: 'Cairo', sans-serif;
+  padding: 0;
+  background-color: #18191a;
+  color: #e4e6eb;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #DFF6FF;
+}
+button{
+  background-color: #47B5FF;
+  border: none;
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  margin: 5px;
+  color: #DFF6FF;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s;
+  height: 30px;
+  line-height: 0;
+  &:hover{
+    cursor: pointer;
+    background-color: #1363DF;
+  }
+}
+.home{
+  // overflow-y: hidden;
+  min-height: 100vh;
+  width: 100%;
+}
+.layout{
+  width: 100%;
+    height: 90vh;
+    margin-top: 11vh;
+  }
+  
+.icon{
+  font-size: 20px;
+}
+
+.users{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
